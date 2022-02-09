@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionTest]">
+  <test thread-count="5" name="LoginTest(failed)">
+    <parameter name="Zip" value="48383"/>
+    <parameter name="Group" value="September_QA_2021"/>
+    <parameter name="password" value="abc123"/>
+    <parameter name="Company" value="VMC Solution"/>
+    <parameter name="Email" value="john@yahoo.com"/>
+    <parameter name="Address" value="TechfiosBuilding"/>
+    <parameter name="Phone" value="3828822"/>
+    <parameter name="State" value="TX"/>
+    <parameter name="FullName" value="John"/>
+    <parameter name="City" value="Dallas"/>
+    <parameter name="username" value="demo@techfios.com"/>
+    <classes>
+      <class name="test.AddCustomerTest">
+        <methods>
+          <include name="ValidUserShouldBeAbleToUseSearchBarLocator" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.AddCustomerTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [RegressionTest] -->

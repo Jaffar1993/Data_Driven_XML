@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="RegressionTest">
+
+	<test name="LoginTest">
+		<parameter name="username" value="demo@techfios.com" />
+		<parameter name="password" value="abc123" />
+		<parameter name="FullName" value="John" />
+		<parameter name="Company" value="VMC Solution" />
+		<parameter name="Email" value="john@yahoo.com" />
+		<parameter name="Phone" value="3828822" />
+		<parameter name="Address" value="TechfiosBuilding" />
+		<parameter name="City" value="Dallas" />
+		<parameter name="State" value="TX" />
+		<parameter name="Zip" value="48383" />
+		<parameter name="Group" value="September_QA_2021" />
+
+
+		<classes>
+
+			<class name="test.LoginTest" /> <!-- Inject the Parameter data on class -->
+			<class name="test.AddCustomerTest" />
+
+
+		</classes>
+
+	</test>
+
+</suite>
